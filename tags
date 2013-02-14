@@ -1,0 +1,243 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDFRIEND_SUCCESS	src/include.h	20;"	d
+ADDFRIEND_SUCCESS_I	src/include.h	33;"	d
+Accept	src/net.c	/^int Accept(int fp,struct sockaddr_in cli_addr)$/;"	f
+Add	src/test_user.c	/^int Add(struct User_List *user)$/;"	f
+AddFriend	src/user.c	/^int AddFriend(struct User_List *user,char name[],char nameoffriend[])$/;"	f
+AddUser	src/user.c	/^int AddUser(struct User_List *user,char name[],char password[],unsigned int num,char friends[][USERNAME_SIZE])$/;"	f
+Atoi	src/user.c	/^int Atoi(char str[])$/;"	f
+CLIENTNUM	src/net.h	15;"	d
+CLOSE	src/include.h	44;"	d
+CM_ADDFRIEND	src/include.h	41;"	d
+CM_DELFRIEND	src/include.h	42;"	d
+CM_MENU_FRIENDLIST	src/include.h	40;"	d
+CM_QUIT	src/include.h	39;"	d
+CREATEUSER_SUCCESS	src/include.h	15;"	d
+CliNetInit	src/net.c	/^int CliNetInit()$/;"	f
+Cli_AddFriendlist	src/user.c	/^int Cli_AddFriendlist(struct Cli_Friendslist *friendlist,char friendsname[USERNAME_SIZE])$/;"	f
+Cli_AddMessageLog	src/user.c	/^int Cli_AddMessageLog(struct Cli_Friendslist *friendlist,char friendsname[USERNAME_SIZE],char message[DATELEN],int owner)$/;"	f
+Cli_Apply	src/windows.c	/^int Cli_Apply(int x,int y,char name[USERNAME_SIZE],char passwd[USERPASSWD_SIZE])$/;"	f
+Cli_ClearFriendlist	src/user.c	/^int Cli_ClearFriendlist(struct Cli_Friendslist *friendlist)$/;"	f
+Cli_DelFriendlist	src/user.c	/^int Cli_DelFriendlist(struct Cli_Friendslist *friendlist,char friendsname[USERNAME_SIZE])$/;"	f
+Cli_DisPlayMsg	src/windows.c	/^int Cli_DisPlayMsg(int x,int y,struct Cli_Friendslist *friendslist,char friendsname[USERNAME_SIZE])$/;"	f
+Cli_DisplayFriendList	src/windows.c	/^int Cli_DisplayFriendList(int x,int y,struct Cli_Friendslist *friendslist,int num,int sum,char name[USERNAME_SIZE])$/;"	f
+Cli_DisplayUserDate	src/windows.c	/^int Cli_DisplayUserDate(int x,int y,struct User_List *user,char name[USERNAME_SIZE])$/;"	f
+Cli_Friendslist	src/user.h	/^struct Cli_Friendslist$/;"	s
+Cli_Login	src/windows.c	/^int Cli_Login(int x,int y,char name[USERNAME_SIZE],char passwd[USERPASSWD_SIZE])$/;"	f
+Cli_Online	src/user.c	/^int Cli_Online(struct Cli_Friendslist *friendlist,char friendsname[USERNAME_SIZE],int sign)$/;"	f
+Cli_Welcome	src/windows.c	/^int Cli_Welcome()$/;"	f
+Cli_Windows	src/windows.c	/^int Cli_Windows(int *x,int *y)$/;"	f
+ColorInit	src/windows.c	/^int ColorInit()$/;"	f
+CreateFriendList	src/user.c	/^int CreateFriendList(struct Friend *friend,char name[][USERNAME_SIZE])$/;"	f
+DATELEN	src/net.h	16;"	d
+DATELEN	src/user.h	4;"	d
+DATETYPE_COMMUNICATE	src/include.h	8;"	d
+DATETYPE_COMMUNICATE_I	src/include.h	28;"	d
+DATETYPE_FRIENDSINFO	src/include.h	9;"	d
+DATETYPE_FRIENDSINFO_I	src/include.h	29;"	d
+DATETYPE_FRIENDSLIST	src/include.h	7;"	d
+DATETYPE_FRIENDSLIST_I	src/include.h	27;"	d
+DATETYPE_OFFLINEMESSAGE	src/include.h	10;"	d
+Del	src/test_user.c	/^int Del(struct User_List *user)$/;"	f
+DelFriend	src/user.c	/^int DelFriend(struct User_List *user,char *name,char *nameoffriend)$/;"	f
+DisList	src/user.c	/^int DisList(struct User_List *user)$/;"	f
+Display	src/client.c	/^void *Display(void *argv1)$/;"	f
+Display	src/server.c	/^void *Display(void *argv1)$/;"	f
+Display	src/server2.c	/^void *Display(void *argv1)$/;"	f
+FRIENDS_MAX	src/user.h	8;"	d
+Friend	src/user.h	/^struct Friend       \/\/用户好友列表结构体$/;"	s
+GetFriendList	src/user.c	/^int GetFriendList(struct User_List *user,char name[],char namelist[][USERNAME_SIZE])$/;"	f
+GetName	src/user.c	/^int GetName(struct User_List *user,int fd,char name[USERNAME_SIZE])$/;"	f
+GetOnline	src/user.c	/^int GetOnline(struct User_List *user,int online[200])$/;"	f
+GetSize	src/windows.c	/^int GetSize(int *x,int *y)$/;"	f
+GetSocket	src/user.c	/^int GetSocket(struct User_List *user,char name[USERNAME_SIZE])$/;"	f
+GetTime	src/user.c	/^int GetTime(char time_str[21])$/;"	f
+GetUserList	src/user.c	/^int GetUserList(struct User_List *user,char list[][USERNAME_SIZE])$/;"	f
+IP	src/net.h	17;"	d
+InitList	src/user.c	/^int InitList(struct User_List *user)$/;"	f
+InsertOffLineMessage	src/user.c	/^int InsertOffLineMessage(struct User_List *user,char buf[DATELEN],char receiver[USERNAME_SIZE],char sender[USERNAME_SIZE])$/;"	f
+InsertToMessagelog	src/user.c	/^int InsertToMessagelog(struct Friend *friends,char name[USERNAME_SIZE],char message[DATELEN],int sign)$/;"	f
+Itoa	src/user.c	/^int Itoa(int num,char str[DATELEN])$/;"	f
+Keyboard	src/client.c	/^void *Keyboard(void *argv1)$/;"	f
+Keyboard	src/server.c	/^void *Keyboard(void *argv1)$/;"	f
+Keyboard	src/server2.c	/^void *Keyboard(void *argv1)$/;"	f
+KeyboardControl	src/windows.c	/^int KeyboardControl(int *num,int *max_num,int *sign,int *logout,char *message,int *message_sign,int *addfriend_sign,char *addfriendsname,int *messageboxsign,int *messageboxnum,int *change)$/;"	f
+LOGIN_PASSWORD_WRONG	src/include.h	13;"	d
+LOGIN_SUCCESS	src/include.h	12;"	d
+ListEmpty	src/user.c	/^int ListEmpty(struct User_List *user)$/;"	f
+ListLength	src/user.c	/^int ListLength(struct User_List *user,int *sumofonlineuser)$/;"	f
+MENU_ADDFRIEND	src/include.h	17;"	d
+MENU_ADDFRIEND_I	src/include.h	30;"	d
+MENU_DELFRIEND	src/include.h	19;"	d
+MENU_DELFRIEND_I	src/include.h	32;"	d
+MENU_SENDMESSAGE	src/include.h	18;"	d
+MENU_SENDMESSAGE_I	src/include.h	31;"	d
+MSGOWN_FRIENDS	src/include.h	24;"	d
+MSGOWN_FRIENDS_I	src/include.h	36;"	d
+MSGOWN_MYSELF	src/include.h	23;"	d
+MSGOWN_MYSELF_I	src/include.h	35;"	d
+MSG_CANCEL	src/include.h	47;"	d
+MSG_OK	src/include.h	46;"	d
+MYQQ_H	src/include.h	2;"	d
+MessageBox	src/windows.c	/^int MessageBox(int x,int y,char *message,int length,int sign)$/;"	f
+MessageLog	src/user.h	/^struct MessageLog$/;"	s
+NET_H	src/net.h	2;"	d
+NewUserConnect	src/server2.c	/^void *NewUserConnect(void *argv1)$/;"	f
+OFFLINE	src/user.h	11;"	d
+ONLINE	src/user.h	10;"	d
+OffLineMessage	src/user.h	/^struct OffLineMessage       \/\/离线消息结构体$/;"	s
+OnLine	src/user.c	/^int OnLine(struct User_List *user,char name[],int sign)$/;"	f
+PORT	src/net.h	13;"	d
+PORT_S	src/net.h	14;"	d
+RUNNING	src/include.h	45;"	d
+Recv	src/net.c	/^int Recv(int fp,char *date)$/;"	f
+RecvMessage	src/net.c	/^int RecvMessage(struct User_List *user,struct Friend *friends,char sender[USERNAME_SIZE],int fp,char buf[DATELEN],char receiver[USERNAME_SIZE])$/;"	f
+RecvMsg	src/client.c	/^void *RecvMsg(void *argv1)$/;"	f
+Running	src/test_net_server.c	/^int Running(struct User_List *user,int fd,struct User_List *cur,char name[USERNAME_SIZE],char passwd[USERPASSWD_SIZE])$/;"	f
+SENDDELAYTIME	src/user.h	9;"	d
+SRC	Makefile	/^SRC = .\/src\/$/;"	m
+SearchUser	src/user.c	/^int SearchUser(struct User_List *user,char name[])$/;"	f
+Send	src/net.c	/^int Send(int fp,char *date)$/;"	f
+SendFriendlist	src/net.c	/^int SendFriendlist(struct User_List *user,struct User_List *cur,char *name,int fd)$/;"	f
+SendMessage	src/net.c	/^int SendMessage(struct User_List *user,char message[DATELEN],char receiver[USERNAME_SIZE],char selfname[USERNAME_SIZE])$/;"	f
+SendOffLineMessage	src/net.c	/^int SendOffLineMessage(struct User_List *user)$/;"	f
+SendTime	src/user.h	/^    char SendTime[21];               \/\/发送时间$/;"	m	struct:OffLineMessage
+Sender	src/user.h	/^    char Sender[USERNAME_SIZE];       \/\/发送者$/;"	m	struct:OffLineMessage
+SerNetInit	src/net.c	/^int SerNetInit()$/;"	f
+Ser_DisPlayMsg	src/windows.c	/^int Ser_DisPlayMsg(int x,int y,struct User_List *user,char username[USERNAME_SIZE],char friendsname[USERNAME_SIZE])$/;"	f
+Ser_DisplayFriendList	src/windows.c	/^int Ser_DisplayFriendList(int x,int y,char friends[][USERNAME_SIZE],int num,int sum,char name[USERNAME_SIZE])$/;"	f
+Ser_DisplayUserList	src/windows.c	/^int Ser_DisplayUserList(int x,int y,char list[][USERNAME_SIZE],int num,int sum,int sign[200],char name[USERNAME_SIZE])$/;"	f
+Ser_LoadList	src/user.c	/^int Ser_LoadList(struct User_List *user)$/;"	f
+Ser_SaveList	src/user.c	/^int Ser_SaveList(struct User_List *user)$/;"	f
+Ser_windows	src/windows.c	/^int Ser_windows(int *x,int *y,int sumofonlineuser,int sumofuser)$/;"	f
+SetSocket	src/user.c	/^int SetSocket(struct User_List *user,char name[USERNAME_SIZE],int fd)$/;"	f
+USERNAME_SIZE	src/user.h	5;"	d
+USERPASSWD_SIZE	src/user.h	6;"	d
+USER_H	src/user.h	2;"	d
+USER_MAX	src/user.h	7;"	d
+UserChecking	src/user.c	/^int UserChecking(struct User_List *user,char name[],char password[])$/;"	f
+UserDel	src/user.c	/^int UserDel(struct User_List *user,char name[],char password[])$/;"	f
+UserLogin	src/user.c	/^int UserLogin(struct User_List *user,int fp)$/;"	f
+UserNameChange	src/user.c	/^int UserNameChange(struct User_List *user,char *oldname,char *newname,char *passwd)$/;"	f
+UserPasswdChange	src/user.c	/^int UserPasswdChange(struct User_List *user,char *name,char *oldpasswd,char *newpasswd)$/;"	f
+User_List	src/user.h	/^struct User_List      \/\/用户列表结构体$/;"	s
+User_Type	src/user.h	/^struct User_Type    \/\/用户信息结构体$/;"	s
+WINDOW_H	src/windows.h	2;"	d
+WindowInit	src/windows.c	/^int WindowInit()$/;"	f
+addfriend_sign	src/include.h	/^    int *addfriend_sign;   \/\/添加\/删除好友状态激活标识$/;"	m	struct:arg_key
+addfriendsname	src/include.h	/^    char *addfriendsname;   \/\/添加\/删除好友好友名缓冲区$/;"	m	struct:arg_key
+addfriendsname	src/include.h	/^    char *addfriendsname;$/;"	m	struct:arg_dis
+arg	src/test_net_server.c	/^struct arg$/;"	s	file:
+arg_dis	src/include.h	/^struct arg_dis    \/\/显示线程参数结构体$/;"	s
+arg_key	src/include.h	/^struct arg_key    \/\/按键检测线程参数结构体$/;"	s
+arg_recv	src/include.h	/^struct arg_recv   \/\/网络接收线程参数结构体$/;"	s
+arg_ser_dis	src/include.h	/^struct arg_ser_dis    \/\/显示进程参数结构$/;"	s
+arg_ser_key	src/include.h	/^struct arg_ser_key       \/\/服务器按键检测线程参数结构体$/;"	s
+arg_ser_newconnect	src/include.h	/^struct arg_ser_newconnect   \/\/处理新链接线程参数结构体$/;"	s
+change	src/include.h	/^    int *change; $/;"	m	struct:arg_ser_dis
+change	src/include.h	/^    int *change;$/;"	m	struct:arg_ser_key
+create_and_bind	src/net.c	/^int create_and_bind(char *port)$/;"	f
+fd	src/include.h	/^    int *fd;                  \/\/链接的套接字描述符$/;"	m	struct:arg_ser_newconnect
+fd	src/include.h	/^    int *fd;     \/\/套接口描述符$/;"	m	struct:arg_recv
+fd_	src/test_net_server.c	/^    int fd_;$/;"	m	struct:arg	file:
+friends	src/user.h	/^    struct Friend friends;             \/\/好友列表结构$/;"	m	struct:User_Type	typeref:struct:User_Type::Friend
+friendslist	src/include.h	/^    struct Cli_Friendslist *friendslist;    \/\/好友列表$/;"	m	struct:arg_dis	typeref:struct:arg_dis::Cli_Friendslist
+friendslist	src/include.h	/^    struct Cli_Friendslist *friendslist;  \/\/好友列表$/;"	m	struct:arg_recv	typeref:struct:arg_recv::Cli_Friendslist
+front	src/user.h	/^    struct Cli_Friendslist *front;$/;"	m	struct:Cli_Friendslist	typeref:struct:Cli_Friendslist::Cli_Friendslist
+front	src/user.h	/^    struct Friend *front;$/;"	m	struct:Friend	typeref:struct:Friend::Friend
+front	src/user.h	/^    struct MessageLog *front;$/;"	m	struct:MessageLog	typeref:struct:MessageLog::MessageLog
+front	src/user.h	/^    struct OffLineMessage *front;$/;"	m	struct:OffLineMessage	typeref:struct:OffLineMessage::OffLineMessage
+front	src/user.h	/^    struct User_List *front;$/;"	m	struct:User_List	typeref:struct:User_List::User_List
+list	src/user.c	/^struct User_List list;$/;"	v	typeref:struct:User_List
+logout	src/include.h	/^    int *logout;              \/\/退出标识$/;"	m	struct:arg_ser_dis
+logout	src/include.h	/^    int *logout;      \/\/退出标识$/;"	m	struct:arg_dis
+logout	src/include.h	/^    int *logout;      \/\/退出标识$/;"	m	struct:arg_ser_key
+logout	src/include.h	/^    int *logout;    \/\/退出标识$/;"	m	struct:arg_key
+main	src/client.c	/^int main()$/;"	f
+main	src/server.c	/^int main()$/;"	f
+main	src/server2.c	/^int main()$/;"	f
+main	src/test_net_client.c	/^int main()$/;"	f
+main	src/test_net_server.c	/^int main()$/;"	f
+main	src/test_user.c	/^int main()$/;"	f
+make_socket_non_blocking	src/net.c	/^int make_socket_non_blocking(int sfd)$/;"	f
+message	src/include.h	/^    char *message;     \/\/消息缓冲区$/;"	m	struct:arg_ser_key
+message	src/include.h	/^    char *message;    \/\/接收缓冲区$/;"	m	struct:arg_key
+message	src/include.h	/^    char *message;  \/\/接收消息缓冲区$/;"	m	struct:arg_recv
+message	src/include.h	/^    char message[DATELEN];    \/\/消息缓冲区$/;"	m	struct:arg_ser_newconnect
+message	src/net.h	/^    xmlChar *message;   \/\/数据内容$/;"	m	struct:package
+message	src/test_net_server.c	/^    char message[DATELEN];$/;"	m	struct:arg	file:
+message	src/user.h	/^    char message[DATELEN];            \/\/消息记录$/;"	m	struct:MessageLog
+message	src/user.h	/^    char message[DATELEN];        \/\/消息$/;"	m	struct:OffLineMessage
+message_sign	src/include.h	/^    int *message_sign;     \/\/缓冲区空标识，0表示为空$/;"	m	struct:arg_ser_key
+message_sign	src/include.h	/^    int *message_sign;   \/\/缓冲区空标识，0表示为空$/;"	m	struct:arg_key
+message_sign	src/include.h	/^    int *message_sign;  \/\/消息缓冲区空标识$/;"	m	struct:arg_recv
+messageboxnum	src/include.h	/^    int *messageboxnum;       \/\/提示窗口选中标识$/;"	m	struct:arg_ser_dis
+messageboxnum	src/include.h	/^    int *messageboxnum;    \/\/提示窗口选中标识$/;"	m	struct:arg_dis
+messageboxnum	src/include.h	/^    int *messageboxnum;    \/\/提示窗口选中标识$/;"	m	struct:arg_key
+messageboxnum	src/include.h	/^    int *messageboxnum;    \/\/提示窗口选中标识$/;"	m	struct:arg_ser_key
+messageboxsign	src/include.h	/^    int *messageboxsign;      \/\/提示窗口激活标识$/;"	m	struct:arg_ser_dis
+messageboxsign	src/include.h	/^    int *messageboxsign;    \/\/消息窗口激活标识$/;"	m	struct:arg_recv
+messageboxsign	src/include.h	/^    int *messageboxsign;   \/\/提示窗口激活标识$/;"	m	struct:arg_dis
+messageboxsign	src/include.h	/^    int *messageboxsign;   \/\/提示窗口激活标识$/;"	m	struct:arg_key
+messageboxsign	src/include.h	/^    int *messageboxsign;   \/\/提示窗口激活标识$/;"	m	struct:arg_ser_key
+messagelog	src/user.h	/^    struct MessageLog messagelog;        \/\/聊天记录内容$/;"	m	struct:Friend	typeref:struct:Friend::MessageLog
+messagelog	src/user.h	/^    struct MessageLog messagelog;$/;"	m	struct:Cli_Friendslist	typeref:struct:Cli_Friendslist::MessageLog
+mut	src/server.c	/^pthread_mutex_t mut;$/;"	v
+mut	src/server2.c	/^pthread_mutex_t mut;$/;"	v
+name	src/include.h	/^    char *name;    \/\/返回选中用户名$/;"	m	struct:arg_dis
+name	src/include.h	/^    char name[DATELEN];       \/\/新链接的用户名$/;"	m	struct:arg_ser_newconnect
+name	src/test_net_server.c	/^    char name[USERNAME_SIZE];$/;"	m	struct:arg	file:
+name	src/test_user.c	/^char name[15],passwd[10];$/;"	v
+name	src/user.h	/^    char name[USERNAME_SIZE];          \/\/好友用户名$/;"	m	struct:Friend
+name	src/user.h	/^    char name[USERNAME_SIZE];         \/\/用户名$/;"	m	struct:User_Type
+name	src/user.h	/^    char name[USERNAME_SIZE];$/;"	m	struct:Cli_Friendslist
+name_cur	src/include.h	/^    char *name_cur;           \/\/返回被选中用户名$/;"	m	struct:arg_ser_dis
+name_loacl	src/include.h	/^    char *name_loacl;$/;"	m	struct:arg_dis
+new	src/test_net_server.c	/^void *new(void *argv1)$/;"	f
+next	src/user.h	/^    struct Cli_Friendslist *next;$/;"	m	struct:Cli_Friendslist	typeref:struct:Cli_Friendslist::Cli_Friendslist
+next	src/user.h	/^    struct Friend *next;$/;"	m	struct:Friend	typeref:struct:Friend::Friend
+next	src/user.h	/^    struct MessageLog *next;$/;"	m	struct:MessageLog	typeref:struct:MessageLog::MessageLog
+next	src/user.h	/^    struct OffLineMessage *next;$/;"	m	struct:OffLineMessage	typeref:struct:OffLineMessage::OffLineMessage
+next	src/user.h	/^    struct User_List *next;$/;"	m	struct:User_List	typeref:struct:User_List::User_List
+num	src/include.h	/^    int *num;                 \/\/被选中用户序号$/;"	m	struct:arg_ser_dis
+num	src/include.h	/^    int *num;      \/\/选中对象序号$/;"	m	struct:arg_ser_key
+num	src/include.h	/^    int *num;      \/\/选中用户序列号$/;"	m	struct:arg_dis
+num	src/include.h	/^    int *num;     \/\/选中用户序列号$/;"	m	struct:arg_key
+num_max	src/include.h	/^    int *num_max;           \/\/各列表对象最大数$/;"	m	struct:arg_ser_dis
+num_max	src/include.h	/^    int *num_max;     \/\/列表最大对象数$/;"	m	struct:arg_ser_key
+num_max	src/include.h	/^    int *num_max;   \/\/列表最大数$/;"	m	struct:arg_key
+numoffriend	src/user.h	/^    unsigned int numoffriend;              \/\/好友个数$/;"	m	struct:User_Type
+offlinemessage	src/user.h	/^    struct OffLineMessage offlinemessage;    \/\/离线消息$/;"	m	struct:User_Type	typeref:struct:User_Type::OffLineMessage
+online	src/user.h	/^    int online;                           \/\/在线状态$/;"	m	struct:User_Type
+online	src/user.h	/^    int online;$/;"	m	struct:Cli_Friendslist
+owner	src/user.h	/^    int owner;                    \/\/消息归属标识$/;"	m	struct:MessageLog
+package	src/net.h	/^struct package{$/;"	s
+passwd	src/include.h	/^    char passwd[DATELEN];     \/\/新链接的用户密码$/;"	m	struct:arg_ser_newconnect
+passwd	src/test_net_server.c	/^    char passwd[USERPASSWD_SIZE];$/;"	m	struct:arg	file:
+passwd	src/test_user.c	/^char name[15],passwd[10];$/;"	v
+password	src/user.h	/^    char password[USERPASSWD_SIZE];       \/\/用户密码$/;"	m	struct:User_Type
+sender	src/include.h	/^    char *sender;   \/\/消息发送者$/;"	m	struct:arg_recv
+sign	src/include.h	/^    int *sign;               \/\/功能选择标识$/;"	m	struct:arg_ser_dis
+sign	src/include.h	/^    int *sign;     \/\/功能选择$/;"	m	struct:arg_ser_key
+sign	src/include.h	/^    int *sign;     \/\/功能选项$/;"	m	struct:arg_dis
+sign	src/include.h	/^    int *sign;    \/\/功能选项$/;"	m	struct:arg_key
+sign	src/user.c	/^int sign = 0;     \/\/链表状态标志,0为空闲状态，1为写状态$/;"	v
+size	src/net.h	/^    uint32_t size;   \/\/数据大小$/;"	m	struct:package
+socket	src/user.h	/^    int socket;                    \/\/用户对应套接字$/;"	m	struct:User_Type
+sumofcli	src/include.h	/^    int *sumofcli;            \/\/当前在线用户人数$/;"	m	struct:arg_ser_newconnect
+sumoffriends	src/include.h	/^    int *sumoffriends;   \/\/好友个数$/;"	m	struct:arg_dis
+sumoffriends	src/include.h	/^    int *sumoffriends;   \/\/好友总数$/;"	m	struct:arg_recv
+sumofmsglog	src/user.h	/^    unsigned long sumofmsglog;         \/\/聊天记录条数$/;"	m	struct:Friend
+sumofofflinemsg	src/user.h	/^    unsigned int sumofofflinemsg;         \/\/离线消息数$/;"	m	struct:User_Type
+temp	src/include.h	/^    char temp[2][USERNAME_SIZE];$/;"	m	struct:arg_ser_newconnect
+temp	src/test_net_server.c	/^    char temp[10][USERNAME_SIZE];$/;"	m	struct:arg	file:
+type	src/net.h	/^    uint16_t type;   \/\/数据类型$/;"	m	struct:package
+user	src/include.h	/^    struct User_List *user;    \/\/用户链表$/;"	m	struct:arg_ser_dis	typeref:struct:arg_ser_dis::User_List
+user	src/include.h	/^    struct User_List *user;    \/\/用户链表$/;"	m	struct:arg_ser_newconnect	typeref:struct:arg_ser_newconnect::User_List
+user	src/test_net_server.c	/^    struct User_List *user;$/;"	m	struct:arg	typeref:struct:arg::User_List	file:
+user	src/user.h	/^    struct User_Type user;          \/\/用户列表结构$/;"	m	struct:User_List	typeref:struct:User_List::User_Type

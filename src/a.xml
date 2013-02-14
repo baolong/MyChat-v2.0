@@ -1,0 +1,17 @@
+<datatype>
+    <user>
+        <username>12345</username>
+        <passwd>12345</passwd>
+    <user>
+    <friend>
+        <localname>12345</local>
+        <friendsname>123456</friendsname>
+    </friend>
+    <message>
+        <sender>12345</sender>
+        <receiver>123456</receiver>
+        <sendtime>2013-2-13</sendtime>
+        <msg>hello.</msg>
+    </message>
+</datatype>
+

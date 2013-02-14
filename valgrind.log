@@ -1,0 +1,35 @@
+==29321== Memcheck, a memory error detector
+==29321== Copyright (C) 2002-2010, and GNU GPL'd, by Julian Seward et al.
+==29321== Using Valgrind-3.6.1 and LibVEX; rerun with -h for copyright info
+==29321== Command: ./b
+==29321== Parent PID: 1961
+==29321== 
+==29321== Thread 4:
+==29321== Invalid read of size 8
+==29321==    at 0x401D74: RecvMsg (client.c:199)
+==29321==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
+==29321== 
+==29321== 
+==29321== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==29321==  Access not within mapped region at address 0x10
+==29321==    at 0x401D74: RecvMsg (client.c:199)
+==29321==  If you believe this happened as a result of a stack
+==29321==  overflow in your program's main thread (unlikely but
+==29321==  possible), you can try to increase the size of the
+==29321==  main thread stack using the --main-stacksize= flag.
+==29321==  The main thread stack size used in this run was 8388608.
+==29321== 
+==29321== HEAP SUMMARY:
+==29321==     in use at exit: 185,619 bytes in 141 blocks
+==29321==   total heap usage: 178 allocs, 37 frees, 193,756 bytes allocated
+==29321== 
+==29321== LEAK SUMMARY:
+==29321==    definitely lost: 0 bytes in 0 blocks
+==29321==    indirectly lost: 0 bytes in 0 blocks
+==29321==      possibly lost: 816 bytes in 3 blocks
+==29321==    still reachable: 184,803 bytes in 138 blocks
+==29321==         suppressed: 0 bytes in 0 blocks
+==29321== Rerun with --leak-check=full to see details of leaked memory
+==29321== 
+==29321== For counts of detected and suppressed errors, rerun with: -v
+==29321== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 6 from 6)
